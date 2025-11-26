@@ -2,6 +2,7 @@
 'RCET 3371
 'Fall 2025
 'Better Etch-A-Sketch
+'https://github.com/hollnoah/BetterEtchASketch.git
 
 Imports System.IO.Ports
 Imports System.Drawing.Drawing2D
