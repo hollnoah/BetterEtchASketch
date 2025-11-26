@@ -10,15 +10,20 @@ Imports System.Media
 Public Class BetterEtchASketch
     ' Current drawing color
     Private currentColor As Color = Color.Black
+
     ' Graphics object for drawing
     Private g As Graphics
+
     ' For drawing lines
     Private penPosition As Point
+
     ' Serial port for Quiet Board
     Private WithEvents PICSerialPort As New SerialPort()
+
     ' Timers for sending requests and reading data
     Private WithEvents CommandTimer As New Timer()
     Private WithEvents ReadTimer As New Timer()
+
     ' Mouse drawing flag
     Private isDrawing As Boolean = False
 
